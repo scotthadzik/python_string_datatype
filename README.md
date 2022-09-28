@@ -23,17 +23,16 @@
 >school = 'WEBER STATE'
 >print ('character 1 :' + school[0])        -->
 >print ('character 4 :' + school[3])        -->
->print ('character 7 :' + school[-4])       -->
->```
+>print ('character 7 :
+> #Using the format string method for multiple items
+> age = 75
+> hours = 10
+> person = 'Scott is {} he sleeps {} hours a day'
+> print (person.format(age, hours))
 >
-## Slicing Strings
-
->- ### SYNTAX -- string [`start` : `end`]
->	- begin at `start` and extending up to but not including `end`
->	- school[0:3] --> `WEB`	
->	- `start` blank
->		- start at index 0
->		- **school[:3] r--> `WEB`**
+> #Using the format string method for multiple items with index
+> age = 75
+> hours = 10 r--> `WEB`**
 >	- `end` blank
 >		- go until the end of the string
 >		- school[8:] --> `ATE` 
